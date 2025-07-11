@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGSRTC BUS PASS</title>
+</head>
+<body>
+    <center>
+        <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-fm6u0ms2c8v69o8d0kltjti6d3-20230806230756.Medi.jpeg" alt="" height="50px"><br>
+        <br>
+        <h2 style="color: blue;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+
+    <center>
+        <fieldset>
+            <legend>Applicant Details</legend>
+
+            <label for="applicantname">Name</label>
+            <input type="text" name="applicantname" id="applicantname" maxlength="20" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="fathername">Father's/ Guardian's Name</label>
+            <input type="text" name="fathername" id="fathername" required><br><br>
+
+            <label for="dob">Date of birth</label>
+            <input type="date" name="dob" id="dob">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="aadhar">Aadhar No</label>
+            <input type="tel" name="aadhar" id="aadhar" required><br><br>
+
+            <label for="whatsapp">WhatsApp No</label>
+            <input type="tel" name="whatsappnumber" id="whatsapp" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="email">Email ID</label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label for="photo">Photo</label>
+            <input type="file" name="photo" id="photo" accept=".jpg, .jpeg, .png">
+        </fieldset>
+    </center>
+
+    <center>
+        <fieldset>
+            <legend>Residential Address Details</legend>
+            <label for="address">Applicant's Address</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="district">District</label>
+            <select name="district" id="district">
+                <option value="select" disabled selected>--Select District</option>
+                <option value="Hyderabad">HYDERABAD</option>
+                <option value="rangareddy">Ranga Reddy</option>
+                <option value="sangareddy">Sanga Reddy</option>
+            </select><br><br>
+
+            <label for="mandal">Mandal</label>
+            <select name="mandal" id="mandal">
+                <option value="select" disabled selected>--Select Mandal--</option>
+                <option value="charminar">Charminar</option>
+                <option value="golconda">Golconda</option>
+                <option value="nampally">Nampally</option>
+                <option value="himayatnagar">Himayatnagar</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="village">Village</label>
+            <select name="village" id="village">Village
+                <option value="select" disabled selected>--Select Village--</option>
+                <option value="amberpet">Amberpet</option>
+                <option value="bahadurpura">Bahadurpura</option>
+                <option value="Chandrayanagutta">Chandrayanagutta</option>
+                <option value="amberpet">Amberpet</option>
+            </select><br><br>
+            
+            <label for="pincode">Pincode</label>
+            <input type="number" name="pincode" id="pincode">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="city">City</label>
+            <select name="city" id="city"> 
+                <option value="select" selected disabled>--Select City--</option>
+                <option value="hyderabad">HYDERABAD</option>
+            </select><br><br>
+            <label for="passtype">Pass Type</label>
+            <select name="passtype" id="passtype">
+                <option value="select" disabled selected>--Select--</option>
+                <option value="geaterpass">Greater Pass</option>
+                <option value="ordinarypass">Ordinary Pass</option>
+                <option value="metroexpresspass">Metro Express Pass</option>
+                <option value="metrodeluxepass">Metro Deluxe Pass</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mode Of Payment & Pass Collection</legend>
+            <label for="paymentmode">Payment Mode</label>
+            <select name="paymentmode" id="paymentmode">
+                <option value="select" selected disabled>--Select Payment Mode--</option>
+                <option value="paymentatcounter">Payment At Counter</option>
+            </select><br><br>
+
+            <label for="passdeliverymode">Pass Delivery Mode</label>
+            <select name="passdeliverymode" id="passdeliverymode">
+                <option value="select">--Select Pass Delivery Mode--</option>
+                <option value="atcounter">At Counter</option>
+            </select><br><br>
+
+            <label for="center">Center at which you want to Collect Pass</label>
+            <select name="center" id="center">
+                <option value="select" disabled selected>--Select--</option>
+                <option value="rtcabids">RTC ABIDS -- HYD [12/07/2025]</option>
+                <option value="rtcafzalgunj">RTC AFZALGUNJ -- HYD [12/07/2025]</option>
+                <option value="rtcairport">RTC AIRPORT -- HYD [12/07/2025]</option>
+                <option value="rtcbalanagar">RTC BALA NAGAR -- HYD [12/07/2025]</option>
+                <option value="rtcbalanagar">RTC BORABANDA -- HYD [12/07/2025]</option>
+                <option value="rtcbalanagar">RTC DILSUKHNAGAR -- HYD [12/07/2025]</option>
+            </select>
+        </fieldset>
+
+        <img src="https://developers.google.com/static/recaptcha/images/newCaptchaAnchor.gif" alt="" height="70"><br>
+        <input type="submit" value="submit" style="background-color: rgb(240, 105, 105); color: white;">
+    </center>
+</body>
+</html>
