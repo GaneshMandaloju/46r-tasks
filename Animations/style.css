@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+}
+
+
+.child{
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 30px;
+    border-radius: 20px;
+}
+
+.child1{
+    background-color: lightblue;
+    animation-name: a;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.child2{
+    background-color: lightcoral;
+    animation-name: b;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.child3{
+    background-color: lightsalmon;
+    animation-name: c;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.child4{
+    background-color: lightslategray;
+    animation-name: d;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.child5{
+    background-color: lightgray;
+    animation-name: e;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.child6{
+    background-color: lightgreen;
+    animation-name: f;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.child7{
+    background-color: lightpink;
+    animation-name: g;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+.child8{
+    background-color: lightseagreen;
+    animation-name: h;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes a {
+    0%{
+        height: 50px;
+    }
+    25%{
+        height: 100px;
+    }
+    50%{
+        height: 150px;
+    }
+    75%{
+        height: 200px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+@keyframes b {
+        0%{
+        height: 100px;
+    }
+    25%{
+        height: 150px;
+    }
+    50%{
+        height: 200px;
+    }
+    75%{
+        height: 150px;
+    }
+    100%{
+        height: 100px;
+    }
+}
+
+@keyframes c {
+    0%{
+        height: 150px;
+    }
+    25%{
+        height: 200px;
+    }
+    50%{
+        height: 150px;
+    }
+    75%{
+        height: 100px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+@keyframes d {
+    0%{
+        height: 200px;
+    }
+    25%{
+        height: 150px;
+    }
+    50%{
+        height: 100px;
+    }
+    75%{
+        height: 50px;
+    }
+    100%{
+        height: 100px;
+    }
+}
+
+@keyframes e {
+    0%{
+        height: 50px;
+    }
+    25%{
+        height: 100px;
+    }
+    50%{
+        height: 150px;
+    }
+    75%{
+        height: 200px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+@keyframes f {
+    0%{
+        height: 100px;
+    }
+    25%{
+        height: 150px;
+    }
+    50%{
+        height: 200px;
+    }
+    75%{
+        height: 150px;
+    }
+    100%{
+        height: 100px;
+    }
+}
+
+@keyframes g {
+    0%{
+        height: 150px;
+    }
+    25%{
+        height: 200px;
+    }
+    50%{
+        height: 150px;
+    }
+    75%{
+        height: 100px;
+    }
+    100%{
+        height: 50px;
+    }
+}
+
+@keyframes h {
+   0%{
+        height: 200px;
+    }
+    25%{
+        height: 150px;
+    }
+    50%{
+        height: 100px;
+    }
+    75%{
+        height: 50px;
+    }
+    100%{
+        height: 100px;
+    }
+}
